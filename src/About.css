@@ -1,13 +1,41 @@
 .about{
     flex: 0.25;
+    flex-direction: column;
     background-color: white;
     border-top: rgba(185, 182, 182, 0.76) solid 3px;
     height: 90vh;
     display: grid;
+    overflow: scroll;
 
     
 }
 #card{
     margin: 20px;
 
+}
+.class_detail{
+    margin: 20px;
+}
+.sidebarChat{
+    border: 2px solid #ededed;
+    padding: 20px;
+    display: flex;
+    flex:1;
+    cursor: pointer;
+}
+.sidebarChat:hover{
+    background-color: #ebebeb;
+    
+}
+.sidebarChat__info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+
+}
+.sidebarChat__info{
+    margin-left: 15px;
+}
+a{
+    text-decoration: none !important;
+    color: black;
 }
