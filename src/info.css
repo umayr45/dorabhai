@@ -1,0 +1,22 @@
+.info{
+    flex:0.5;
+    border-top: rgba(185, 182, 182, 0.76) solid 3px;
+    background-color: white;
+}
+.card__text{
+    
+    font-size: small;
+    color: gray;
+}
+.card__heading{
+    color: red;
+    font-size: x-large;
+    font-weight: 600;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    margin: 20px;
+}

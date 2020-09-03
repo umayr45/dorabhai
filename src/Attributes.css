@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.attribute__element{
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 4px;
+
+}
+.attribute__element :hover{
+    background-color: lightgray;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+.MuiSvgIcon-root{
+    color: red;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+.attribute__element :active{
+    
+    background-color: red;
+}

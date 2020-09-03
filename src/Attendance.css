@@ -1,0 +1,20 @@
+.attendance{
+    flex:0.5;
+    border-top: rgba(185, 182, 182, 0.76) solid 3px;
+    background-color: white;
+    overflow: scroll;
+}
+#attendance__info{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0,0, 0.75);
+
+}
+.attendance__detail{
+    margin: 5px;
+    margin-right: auto;
+
+}

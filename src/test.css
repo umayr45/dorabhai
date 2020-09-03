@@ -1,0 +1,9 @@
+.test{
+    flex:0.5;
+    border-top: rgba(185, 182, 182, 0.76) solid 3px;
+    background-color: white;
+}
+h4{
+    color: red;
+    padding: 10px;
+}
